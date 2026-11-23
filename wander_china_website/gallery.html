@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>旅行相册 | Wander China</title>
+  <link rel="stylesheet" href="css/style.css"><script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="logo" href="index.html">WANDER<span>CHINA.</span></a><button class="menu-toggle" aria-label="打开导航菜单" aria-expanded="false">☰</button><nav class="main-nav"><a href="index.html">首页 <small>HOME</small></a><a href="destinations.html">目的地 <small>PLACES</small></a><a href="itinerary.html">旅行路线 <small>ROUTES</small></a><a class="active" href="gallery.html">旅行相册 <small>GALLERY</small></a><a href="guide.html">旅行指南 <small>GUIDE</small></a></nav></header>
+  <main>
+    <section class="page-hero"><p class="eyebrow">COLLECT THE MOMENTS</p><h1>把风景，<span class="highlight">装进相册</span></h1><p>选择一个目的地，慢慢欣赏这段旅程里的八个瞬间。</p><div class="page-hero-mark">04 / 05</div></section>
+    <section class="section-wrap">
+      <div class="gallery-toolbar"><div><p class="eyebrow">YOUR PHOTO STORIES</p><h2>我的旅行片段</h2></div><label class="gallery-select-label" for="destination-select">选择目的地</label></div>
+      <div class="gallery-select-wrap"><select id="destination-select" class="destination-select">
+        <option value="guilin">桂林</option><option value="chongqing">重庆</option><option value="kanas">新疆喀纳斯</option><option value="xian">西安</option>
+      </select><span>每组 8 张照片 · 自动轮播</span></div>
+      <section class="slideshow personal-slideshow" aria-label="所选目的地照片轮播">
+        <div class="slide-container">
+          <img id="slide-image" src="images/personal/guilin/guilinmountain.jpg" alt="桂林旅行照片" fetchpriority="high">
+          <button class="slide-btn prev" id="prev-btn" type="button" aria-label="上一张">‹</button>
+          <button class="slide-btn next" id="next-btn" type="button" aria-label="下一张">›</button>
+          <div class="slide-caption"><p class="eyebrow">PHOTO STORIES</p><h3 id="slide-title">桂林 · 我的旅行</h3><p id="slide-count">01 / 08</p></div>
+        </div>
+        <div class="slide-controls"><div class="slide-dots" id="slide-dots" aria-label="选择照片">
+      </section>
+      
+    </section>
+  </main>
+  <footer class="site-footer"><a class="logo" href="index.html">WANDER<span>CHINA.</span></a><p>用脚步丈量风景，用好奇心记录世界。</p><span>© 2026 WANDER CHINA · STUDENT PROJECT</span></footer>
+</body></html>
